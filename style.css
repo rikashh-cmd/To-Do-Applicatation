@@ -1,0 +1,18 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,sans-serif;background:#f3f4f6;color:#1f2937;display:flex;justify-content:center;padding:40px 16px}
+.app{background:#fff;width:100%;max-width:480px;padding:24px;border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+h1{margin:0 0 16px}
+form{display:flex;gap:8px}
+input{flex:1;padding:10px;border:1px solid #d1d5db;border-radius:8px;font-size:1rem}
+button{padding:10px 14px;border:0;border-radius:8px;background:#2563eb;color:#fff;cursor:pointer;font-size:.95rem}
+button:focus-visible,input:focus-visible{outline:2px solid #1d4ed8;outline-offset:2px}
+.filters{display:flex;gap:6px;margin:16px 0}
+.filters button{background:#e5e7eb;color:#374151}
+.filters button.active{background:#2563eb;color:#fff}
+ul{list-style:none;padding:0;margin:0}
+li{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #eee}
+li span{flex:1;word-break:break-word}
+li.done span{text-decoration:line-through;color:#9ca3af}
+li .del{background:#ef4444;padding:6px 10px}
+.link{background:none;color:#2563eb;padding:0}
+#count{color:#6b7280;font-size:.9rem}
